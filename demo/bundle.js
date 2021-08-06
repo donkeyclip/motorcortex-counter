@@ -296,7 +296,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("016b40c12dd3ade85f93")
+/******/ 		__webpack_require__.h = () => ("4ef6e4ec6e77241bcc35")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -600,7 +600,11 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /******/ 				.then(__webpack_require__.hmrM)
 /******/ 				.then(function (update) {
 /******/ 					if (!update) {
-/******/ 						return setStatus(applyInvalidatedModules() ? "ready" : "idle");
+/******/ 						return setStatus(applyInvalidatedModules() ? "ready" : "idle").then(
+/******/ 							function () {
+/******/ 								return null;
+/******/ 							}
+/******/ 						);
 /******/ 					}
 /******/ 		
 /******/ 					return setStatus("prepare").then(function () {
