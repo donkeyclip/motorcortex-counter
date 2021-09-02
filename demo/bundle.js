@@ -93,15 +93,15 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     if (!(t instanceof e)) throw new TypeError("Cannot call a class as a function");
   }
 
-  function o(t, e) {
+  function r(t, e) {
     for (var n = 0; n < e.length; n++) {
-      var o = e[n];
-      o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(t, o.key, o);
+      var r = e[n];
+      r.enumerable = r.enumerable || !1, r.configurable = !0, "value" in r && (r.writable = !0), Object.defineProperty(t, r.key, r);
     }
   }
 
-  function r(t) {
-    return (r = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) {
+  function o(t) {
+    return (o = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) {
       return t.__proto__ || Object.getPrototypeOf(t);
     })(t);
   }
@@ -113,10 +113,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   }
 
   function u(t, e) {
-    return !e || "object" != _typeof(e) && "function" != typeof e ? function (t) {
+    if (e && ("object" == _typeof(e) || "function" == typeof e)) return e;
+    if (void 0 !== e) throw new TypeError("Derived constructors may only return object or undefined");
+    return function (t) {
       if (void 0 === t) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
       return t;
-    }(t) : e;
+    }(t);
   }
 
   function c(t) {
@@ -134,12 +136,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
     return function () {
       var n,
-          o = r(t);
+          r = o(t);
 
       if (e) {
-        var i = r(this).constructor;
-        n = Reflect.construct(o, arguments, i);
-      } else n = o.apply(this, arguments);
+        var i = o(this).constructor;
+        n = Reflect.construct(r, arguments, i);
+      } else n = r.apply(this, arguments);
 
       return u(this, n);
     };
@@ -161,7 +163,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           }), e && i(t, e);
         }(a, t);
         var e,
-            r,
+            o,
             u,
             f = c(a);
 
@@ -169,7 +171,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
           return n(this, a), f.apply(this, arguments);
         }
 
-        return e = a, (r = [{
+        return e = a, (o = [{
           key: "getScratchValue",
           value: function value() {
             return 0;
@@ -185,7 +187,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
             var n = this.initialValue + (this.targetValue - this.initialValue) * t;
             n = this.attrs.decimals ? n.toFixed(this.attrs.decimals) : Math.trunc(n), this.element.innerHTML = n;
           }
-        }]) && o(e.prototype, r), u && o(e, u), a;
+        }]) && r(e.prototype, o), u && r(e, u), a;
       }(e(t).default.Effect),
       name: "Counter",
       attributesValidationRules: {
@@ -296,7 +298,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("00a5fc27f36b3e0a4387")
+/******/ 		__webpack_require__.h = () => ("adeed4d90d4b9c94a467")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
