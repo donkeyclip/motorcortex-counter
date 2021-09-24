@@ -1,5 +1,5 @@
-import MotorCortex from "@kissmybutton/motorcortex";
-import Player from "@kissmybutton/motorcortex-player";
+import MotorCortex from "@donkeyclip/motorcortex";
+import Player from "@donkeyclip/motorcortex-player";
 import MCCounter from "../dist/motorcortex-counter.umd";
 
 const Counter = MotorCortex.loadPlugin(MCCounter);
@@ -71,4 +71,4 @@ const counterEffect2 = new Counter.Counter(
 
 clip.addIncident(counterEffect2, 1000);
 
-const player = new Player({ clip });
+new Player({ clip });

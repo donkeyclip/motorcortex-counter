@@ -1,4 +1,4 @@
-import MotorCortex from "@kissmybutton/motorcortex";
+import MotorCortex from "@donkeyclip/motorcortex";
 
 /**
  * The purpose of Effects is to timely alter the state or value of attributes of
@@ -61,7 +61,7 @@ export default class Counter extends MotorCortex.Effect {
    * applied before reaching the execution of this method. This method's
    * arguments have already been re-calculated based on the easing.
    **/
-  onProgress(fraction, millisecond) {
+  onProgress(fraction) {
     let currentVal =
       this.initialValue + (this.targetValue - this.initialValue) * fraction;
 
