@@ -1,6 +1,6 @@
 {
   "name": "@donkeyclip/motorcortex-counter",
-  "version": "1.0.5",
+  "version": "1.0.2",
   "description": "A MotorCortex plugin for animating number progress from a start to an end value.",
   "main": "dist/motorcortex-counter.cjs.js",
   "module": "dist/motorcortex-counter.esm.js",
@@ -111,7 +111,7 @@
     "semantic-release": "17.4.7",
     "shelljs": "0.8.4",
     "size-limit": "5.0.4",
-    "webpack": "5.53.0",
+    "webpack": "5.54.0",
     "webpack-cli": "4.8.0",
     "webpack-dev-server": "3.11.2",
     "whatwg-fetch": "3.6.2"
