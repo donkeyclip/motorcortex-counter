@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.0.2...v1.1.0) (2021-09-27)
+
+
+### Features
+
+* republish ([93fbf13](https://www.github.com/donkeyclip/motorcortex-counter/commit/93fbf132700886d24f33df6340ca1b0280e68e11))
+* republish ([7cc63d1](https://www.github.com/donkeyclip/motorcortex-counter/commit/7cc63d14f835a77613eadc4fc24ded4e9bb872e2))
+
 ### [1.0.2](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.0.1...v1.0.2) (2021-09-24)
 
 
