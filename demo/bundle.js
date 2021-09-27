@@ -149,7 +149,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
   return {
     npm_name: "@donkeyclip/motorcortex-counter",
-    version: "1.0.2",
+    version: "1.1.0",
     incidents: [{
       exportable: function (t) {
         !function (t, e) {
@@ -298,7 +298,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("bd30804e7ae2ceb82799")
+/******/ 		__webpack_require__.h = () => ("1978d2452fb14bd48cf3")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
