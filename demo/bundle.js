@@ -101,15 +101,15 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
   }
 
   function o(t) {
-    return (o = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) {
+    return o = Object.setPrototypeOf ? Object.getPrototypeOf : function (t) {
       return t.__proto__ || Object.getPrototypeOf(t);
-    })(t);
+    }, o(t);
   }
 
   function i(t, e) {
-    return (i = Object.setPrototypeOf || function (t, e) {
+    return i = Object.setPrototypeOf || function (t, e) {
       return t.__proto__ = e, t;
-    })(t, e);
+    }, i(t, e);
   }
 
   function u(t, e) {
@@ -147,48 +147,50 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
     };
   }
 
+  var f = function (t) {
+    !function (t, e) {
+      if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function");
+      t.prototype = Object.create(e && e.prototype, {
+        constructor: {
+          value: t,
+          writable: !0,
+          configurable: !0
+        }
+      }), e && i(t, e);
+    }(a, t);
+    var e,
+        o,
+        u,
+        f = c(a);
+
+    function a() {
+      return n(this, a), f.apply(this, arguments);
+    }
+
+    return e = a, (o = [{
+      key: "getScratchValue",
+      value: function value() {
+        return 0;
+      }
+    }, {
+      key: "onGetContext",
+      value: function value() {
+        this.element.innerHTML = this.initialValue;
+      }
+    }, {
+      key: "onProgress",
+      value: function value(t) {
+        var e = this.initialValue + (this.targetValue - this.initialValue) * t;
+        e = this.attrs.decimals ? e.toFixed(this.attrs.decimals) : Math.trunc(e), this.element.innerHTML = e;
+      }
+    }]) && r(e.prototype, o), u && r(e, u), a;
+  }(e(t).default.Effect);
+
   return {
     npm_name: "@donkeyclip/motorcortex-counter",
     version: "1.1.0",
     incidents: [{
-      exportable: function (t) {
-        !function (t, e) {
-          if ("function" != typeof e && null !== e) throw new TypeError("Super expression must either be null or a function");
-          t.prototype = Object.create(e && e.prototype, {
-            constructor: {
-              value: t,
-              writable: !0,
-              configurable: !0
-            }
-          }), e && i(t, e);
-        }(a, t);
-        var e,
-            o,
-            u,
-            f = c(a);
-
-        function a() {
-          return n(this, a), f.apply(this, arguments);
-        }
-
-        return e = a, (o = [{
-          key: "getScratchValue",
-          value: function value() {
-            return 0;
-          }
-        }, {
-          key: "onGetContext",
-          value: function value() {
-            this.element.innerHTML = this.initialValue;
-          }
-        }, {
-          key: "onProgress",
-          value: function value(t) {
-            var e = this.initialValue + (this.targetValue - this.initialValue) * t;
-            e = this.attrs.decimals ? e.toFixed(this.attrs.decimals) : Math.trunc(e), this.element.innerHTML = e;
-          }
-        }]) && r(e.prototype, o), u && r(e, u), a;
-      }(e(t).default.Effect),
+      exportable: f,
       name: "Counter",
       attributesValidationRules: {
         animatedAttrs: {
@@ -298,7 +300,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	(() => {
-/******/ 		__webpack_require__.h = () => ("1978d2452fb14bd48cf3")
+/******/ 		__webpack_require__.h = () => ("be27aafd8dd81d2ea909")
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
