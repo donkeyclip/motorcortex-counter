@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.1.0...v1.1.1) (2021-09-30)
+
+
+### Bug Fixes
+
+* update deps ([e45a077](https://www.github.com/donkeyclip/motorcortex-counter/commit/e45a0770796438b5389d97efcd77e67841528f8a))
+
 ## [1.1.0](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.0.2...v1.1.0) (2021-09-27)
 
 
