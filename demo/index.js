@@ -1,6 +1,6 @@
 import MotorCortex from "@donkeyclip/motorcortex";
 import Player from "@donkeyclip/motorcortex-player";
-import MCCounter from "../dist/motorcortex-counter.umd";
+import MCCounter from "../dist/motorcortex-counter.esm";
 
 const Counter = MotorCortex.loadPlugin(MCCounter);
 
