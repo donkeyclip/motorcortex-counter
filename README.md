@@ -88,10 +88,10 @@ With this Incident you are able to animate and customize the progress of a numbe
 
 ### Demo
 
-https://kissmybutton.github.io/motorcortex-counter/demo/
+https://donkeyclip.github.io/motorcortex-counter/demo/
 
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-[![Kiss My Button](https://presskit.kissmybutton.gr/logos/kissmybutton-logo-small.png)](https://kissmybutton.gr)
+[<img src="https://presskit.donkeyclip.com/logos/donkey%20clip%20logo.svg" width=250></img>](https://donkeyclip.com)
