@@ -39,7 +39,7 @@ import AnimePluginDefinition from "@donkeyclip/motorcortex-anime";
 
 const AnimePlugin = MotorCortex.loadPlugin(AnimePluginDefinition);
 
-const MyClip = new MotorCortex.Clip({
+const MyClip = new MotorCortex.HTMLClip({
   html: `
         <div id="number-counter">
             <p class="effect-target">100</p>
