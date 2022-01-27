@@ -5,10 +5,10 @@
   "main": "dist/motorcortex-counter.cjs.js",
   "module": "dist/motorcortex-counter.esm.js",
   "browser": "dist/motorcortex-counter.umd.js",
-  "author": "KissMyButton PC (kissmybutton.gr) <opensource@kissmybutton.gr>",
+  "author": "Donkeyclip (donkeyclip.com) <opensource@donkeyclip.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kissmybutton/motorcortex-counter"
+    "url": "https://github.com/donkeyclip/motorcortex-counter"
   },
   "license": "MIT",
   "engines": {
