@@ -1,5 +1,21 @@
 # Changelog
 
+### [1.1.2](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.1.1...v1.1.2) (2022-03-18)
+
+
+### Bug Fixes
+
+* drop code from demo config ([5ee5fde](https://www.github.com/donkeyclip/motorcortex-counter/commit/5ee5fde7d541a6ba63405dd928b4fd426d36e863))
+* fix broken rollup config ([0b43f09](https://www.github.com/donkeyclip/motorcortex-counter/commit/0b43f099f98f1d28348f0dcfc122e8c1ee1f0680))
+* fix broken webpack config ([3b877bc](https://www.github.com/donkeyclip/motorcortex-counter/commit/3b877bc0633c96686f20b9046c126640e20f259b))
+* update build and demo files drop old babel config ([b6f6d04](https://www.github.com/donkeyclip/motorcortex-counter/commit/b6f6d0434713d18055b5719fea9848132e6b3507))
+* update build and demo files drop old babel config ([bdb3de2](https://www.github.com/donkeyclip/motorcortex-counter/commit/bdb3de2c5f660c7e85eae455c8195ae9246953c6))
+* update build and demo files drop old babel config ([5196812](https://www.github.com/donkeyclip/motorcortex-counter/commit/51968123e8d389827f4fc64da4166d7ee8690c9b))
+* update build and demo files drop old babel config ([e8f9075](https://www.github.com/donkeyclip/motorcortex-counter/commit/e8f9075bfba5f4817ee02ce98c09ffbec877bc76))
+* update build and demo files drop old babel config ([1d5ded0](https://www.github.com/donkeyclip/motorcortex-counter/commit/1d5ded0772becf323c796993403d419f7d224c3d))
+* update build and demo files drop old babel config ([76ce6d3](https://www.github.com/donkeyclip/motorcortex-counter/commit/76ce6d3dfeee369668548b13bb970a5bac10e752))
+* update rollup deps to latest packages ([d0fba53](https://www.github.com/donkeyclip/motorcortex-counter/commit/d0fba53d759155fd75f4d088319f65a2fa562906))
+
 ### [1.1.1](https://www.github.com/donkeyclip/motorcortex-counter/compare/v1.1.0...v1.1.1) (2021-09-30)
 
 
