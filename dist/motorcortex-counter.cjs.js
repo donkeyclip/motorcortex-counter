@@ -1351,7 +1351,7 @@ var Counter = /*#__PURE__*/function (_MotorCortex$Effect) {
 }(MotorCortex__default["default"].Effect);
 
 var name = "@donkeyclip/motorcortex-counter";
-var version = "1.1.1";
+var version = "1.1.2";
 
 var index = {
   npm_name: name,
