@@ -1334,8 +1334,8 @@ var Counter = /*#__PURE__*/function (_MotorCortex$Effect) {
 
   }, {
     key: "onProgress",
-    value: function onProgress(fraction) {
-      var currentVal = this.initialValue + (this.targetValue - this.initialValue) * fraction;
+    value: function onProgress(millisecond) {
+      var currentVal = this.initialValue + (this.targetValue - this.initialValue) * this.getFraction(millisecond);
 
       if (this.attrs.decimals) {
         currentVal = currentVal.toFixed(this.attrs.decimals);

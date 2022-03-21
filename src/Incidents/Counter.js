@@ -61,9 +61,10 @@ export default class Counter extends MotorCortex.Effect {
    * applied before reaching the execution of this method. This method's
    * arguments have already been re-calculated based on the easing.
    **/
-  onProgress(fraction) {
+  onProgress(millisecond) {
     let currentVal =
-      this.initialValue + (this.targetValue - this.initialValue) * fraction;
+      this.initialValue +
+      (this.targetValue - this.initialValue) * this.getFraction(millisecond);
 
     if (this.attrs.decimals) {
       currentVal = currentVal.toFixed(this.attrs.decimals);
