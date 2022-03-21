@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/donkeyclip/motorcortex-counter/compare/v1.1.2...v2.0.0) (2022-03-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* update mc version
+
+### Bug Fixes
+
+* update mc version ([725fd7e](https://github.com/donkeyclip/motorcortex-counter/commit/725fd7ef2db7c03a8a7f1bd48efd7e8e9e0bd739))
+
 ### [1.1.2](https://github.com/donkeyclip/motorcortex-counter/compare/v1.1.1...v1.1.2) (2022-03-19)
 
 
