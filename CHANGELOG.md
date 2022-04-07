@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0](https://github.com/donkeyclip/motorcortex-counter/compare/v2.0.0...v2.1.0) (2022-04-07)
+
+
+### Features
+
+* drop explorer 11 support ([6cfab62](https://github.com/donkeyclip/motorcortex-counter/commit/6cfab62947483befaf2d1fde7dd88a6a81b3ccd6))
+* update compatibility with motorcortex ([2d08fad](https://github.com/donkeyclip/motorcortex-counter/commit/2d08fad7d8f06455026c6f7efc9eed35d0a49361))
+
 ## [2.0.0](https://github.com/donkeyclip/motorcortex-counter/compare/v1.1.2...v2.0.0) (2022-03-21)
 
 
