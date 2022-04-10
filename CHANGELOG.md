@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.1](https://github.com/donkeyclip/motorcortex-counter/compare/v2.1.0...v2.1.1) (2022-04-10)
+
+
+### Bug Fixes
+
+* delete  .browserlistrc ([986a0fd](https://github.com/donkeyclip/motorcortex-counter/commit/986a0fdc78152aa3ac1c7e1093bddc52c1d6bb87))
+
 ## [2.1.0](https://github.com/donkeyclip/motorcortex-counter/compare/v2.0.0...v2.1.0) (2022-04-07)
 
 
