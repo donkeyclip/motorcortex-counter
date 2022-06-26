@@ -1,10 +1,6 @@
 'use strict';
 
-var MotorCortex = require('@donkeyclip/motorcortex');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var MotorCortex__default = /*#__PURE__*/_interopDefaultLegacy(MotorCortex);
+var motorcortex = require('@donkeyclip/motorcortex');
 
 /**
  * The purpose of Effects is to timely alter the state or value of attributes of
@@ -38,7 +34,7 @@ var MotorCortex__default = /*#__PURE__*/_interopDefaultLegacy(MotorCortex);
  *
  **/
 
-class Counter extends MotorCortex__default["default"].Effect {
+class Counter extends motorcortex.Effect {
   /**
    * the very first MonoIncident of the specific element and the
    * specific attribute that will ever enter a Clip will be asked

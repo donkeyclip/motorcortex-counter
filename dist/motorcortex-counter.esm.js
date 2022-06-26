@@ -1,4 +1,4 @@
-import MotorCortex from '@donkeyclip/motorcortex';
+import { Effect } from '@donkeyclip/motorcortex';
 
 /**
  * The purpose of Effects is to timely alter the state or value of attributes of
@@ -32,7 +32,7 @@ import MotorCortex from '@donkeyclip/motorcortex';
  *
  **/
 
-class Counter extends MotorCortex.Effect {
+class Counter extends Effect {
   /**
    * the very first MonoIncident of the specific element and the
    * specific attribute that will ever enter a Clip will be asked
