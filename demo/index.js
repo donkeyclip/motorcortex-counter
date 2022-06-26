@@ -1,10 +1,10 @@
-import MotorCortex from "@donkeyclip/motorcortex";
+import { loadPlugin, HTMLClip } from "@donkeyclip/motorcortex";
 import Player from "@donkeyclip/motorcortex-player";
 import MCCounter from "../dist/motorcortex-counter.esm";
 
-const Counter = MotorCortex.loadPlugin(MCCounter);
+const Counter = loadPlugin(MCCounter);
 
-const clip = new MotorCortex.HTMLClip({
+const clip = new HTMLClip({
   html: `
     <div class="container">
       <div id="number-counter">
