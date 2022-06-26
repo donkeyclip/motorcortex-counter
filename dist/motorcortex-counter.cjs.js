@@ -81,7 +81,7 @@ class Counter extends motorcortex.Effect {
 }
 
 var name = "@donkeyclip/motorcortex-counter";
-var version = "2.1.1";
+var version = "2.1.2";
 
 var index = {
   npm_name: name,
