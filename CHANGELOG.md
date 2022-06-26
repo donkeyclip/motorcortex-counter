@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.1.2](https://github.com/donkeyclip/motorcortex-counter/compare/v2.1.1...v2.1.2) (2022-06-26)
+
+
+### Bug Fixes
+
+* import only effect instead of full MC ([c0aeb3c](https://github.com/donkeyclip/motorcortex-counter/commit/c0aeb3c9486150b8c67b09aeb710e7c3508e775f))
+
 ### [2.1.1](https://github.com/donkeyclip/motorcortex-counter/compare/v2.1.0...v2.1.1) (2022-04-10)
 
 
