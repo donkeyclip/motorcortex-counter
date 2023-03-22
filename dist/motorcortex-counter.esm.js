@@ -31,7 +31,6 @@ import { Effect } from '@donkeyclip/motorcortex';
  * which are analysed more inline
  *
  **/
-
 class Counter extends Effect {
   /**
    * the very first MonoIncident of the specific element and the
@@ -42,17 +41,17 @@ class Counter extends Effect {
   getScratchValue() {
     return 0;
   }
+
   /**
    * The moment the Effect gets applied as MonoIncident to the specific
    * element and for the specific animatedAttr.
    * You can use this method to initialise anything you need to initialise
    * in order to use it on the onProgress method
    **/
-
-
   onGetContext() {
     this.element.innerHTML = this.initialValue;
   }
+
   /**
    * Takes two arguments the "fraction" which is a number from 0 to 1, representing
    * the fraction (the percentage) of the duration that we are in,
@@ -62,20 +61,15 @@ class Counter extends Effect {
    * applied before reaching the execution of this method. This method's
    * arguments have already been re-calculated based on the easing.
    **/
-
-
   onProgress(millisecond) {
     let currentVal = this.initialValue + (this.targetValue - this.initialValue) * this.getFraction(millisecond);
-
     if (this.attrs.decimals) {
       currentVal = currentVal.toFixed(this.attrs.decimals);
     } else {
       currentVal = Math.trunc(currentVal);
     }
-
     this.element.innerHTML = currentVal;
   }
-
 }
 
 var name = "@donkeyclip/motorcortex-counter";
